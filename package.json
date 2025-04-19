@@ -1,0 +1,22 @@
+{
+  "name": "user-api",
+  "version": "1.0.0",
+  "main": "user-api.js",
+  "scripts": {
+    "start": "node user-api.js",
+    "dev": "nodemon user-api.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^4.21.2",
+    "mongoose": "^8.13.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "engines": {
+    "node": "14.x"
+  },
+  "license": "ISC"
+}
